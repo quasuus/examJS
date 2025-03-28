@@ -5,9 +5,9 @@ async function showData() {
     const div = document.getElementById("container")
 
     apiData.forEach(a => {
-        const pe = document.createElement("p")
-        pe.innerHTML = a.data.name;
-        div.appendChild(pe);
+        const Pe = document.createElement("p")
+        Pe.innerHTML= a.name;
+        div.appendChild(Pe);
     });
 }
-export default showData()
+export default showData;

@@ -1,3 +1,3 @@
-import showData from "./showData.js";
+import showData from "./API/showData.js";
 
 showData();
